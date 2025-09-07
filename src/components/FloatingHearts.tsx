@@ -65,7 +65,7 @@ export default function FloatingHearts() {
       <style>{`
         @keyframes floatUp {
           0% {
-            transform: translateY(120vh) rotate(0deg) scale(0.8);
+            transform: translateY(140vh) rotate(0deg) scale(0.8);
             opacity: 0;
           }
           5% {
