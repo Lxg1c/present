@@ -98,8 +98,8 @@ export default function Reasons({ onBack }: ReasonsProps) {
       
       {/* Back button - адаптивное позиционирование */}
       <button
-        onClick={onBack}
-        className="fixed top-4 left-4 sm:top-6 sm:left-6 z-20 flex items-center space-x-2 bg-white/90 hover:bg-white text-pink-600 border border-pink-200 px-3 py-1 sm:px-4 sm:py-2 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg backdrop-blur-lg text-sm sm:text-base"
+      onClick={onBack}
+      className="fixed top-[60px] left-4 max-sm:top-[60px] sm:top-6 sm:left-6 z-20 flex items-center space-x-2 bg-white/90 hover:bg-white text-pink-600 border border-pink-200 px-3 py-1 sm:px-4 sm:py-2 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg backdrop-blur-lg text-sm sm:text-base"
       >
         <ArrowLeft className="w-3 h-3 sm:w-4 sm:h-4" />
         <span className="hidden sm:inline">Назад</span>
