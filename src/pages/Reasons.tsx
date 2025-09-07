@@ -13,7 +13,7 @@ interface ReasonsProps {
 export default function Reasons({ onBack }: ReasonsProps) {
   const [currentReason, setCurrentReason] = useState(0);
   const [showCard, setShowCard] = useState(false);
-  const [isComplete, setIsComplete] = useState(true);
+  const [isComplete, setIsComplete] = useState(false);
 
   useEffect(() => {
     setShowCard(true);
